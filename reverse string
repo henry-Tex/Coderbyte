@@ -1,0 +1,4 @@
+function FirstReverse(str) { 
+    return str.split('').reverse().join().replaceAll(',',''); 
+}
+console.log (FirstReverse('Reviver'));
